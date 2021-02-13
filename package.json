@@ -3,6 +3,9 @@
 	"version": "2.0.0",
 	"description": "Tiny Useful Scripts",
 	"main": "index.js",
+	"scripts": {
+		"test": "node test.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Chromus-dev/TinyScripts.git"
@@ -13,11 +16,5 @@
 		"url": "https://github.com/Chromus-dev/TinyScripts/issues"
 	},
 	"homepage": "https://github.com/Chromus-dev/TinyScripts#readme",
-	"keywords": [
-		"script",
-		"tiny",
-		"base64",
-		"encode",
-		"decode"
-	]
+	"keywords": [ "script", "tiny", "base64", "encode", "decode" ]
 }

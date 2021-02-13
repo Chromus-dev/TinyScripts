@@ -1,7 +1,7 @@
 exports.base64 = function(type, text) {
-	if (!(type == encode || type == decode)) throw new TypeError('You must specify encode or decode');
+	if (!(type == 'encode' || type == 'decode')) throw new TypeError('You must specify "encode" or "decode"');
 	if (!type) throw new TypeError(`You must specify text to ${type}`);
-	if (typeof text !== 'string') throw new TypeError('"text" must be in string format');
+	if (typeof text !== 'string') throw new TypeError('text must be in string format');
 
 	function encode(text) {
 		let buff = new Buffer.from(text);
