@@ -1,4 +1,17 @@
 {
 	"name": "tinyscripts",
-	"version": "1.0.0"
+	"version": "1.0.0",
+	"description": "Tiny Useful Scripts",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Chromus-dev/TinyScripts.git"
+	},
+	"author": "chromus",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Chromus-dev/TinyScripts/issues"
+	},
+	"homepage": "https://github.com/Chromus-dev/TinyScripts#readme",
+	"keywords": [ "script", "tiny", "base64", "encode", "decode" ]
 }
