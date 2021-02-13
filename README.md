@@ -1,4 +1,4 @@
-<h1 align="center"> TinyScripts </h1>
+<h1 align="center"><a href="https://www.npmjs.com/package/tinyscripts" target="_blank"> TinyScripts </a></h1>
 
 <h2 align="center"> A tiny set of scripts designed for quick access. </h2>
 <br>
