@@ -6,7 +6,6 @@
 
 [![npm](https://img.shields.io/npm/v/tinyscripts)](https://www.npmjs.com/package/tinyscripts)
 [![npm size](https://img.shields.io/bundlephobia/min/tinyscripts)](https://www.npmjs.com/package/tinyscripts)
-[![license](https://img.shields.io/npm/l/tinyscripts)]((https://www.npmjs.com/package/tinyscripts))</div>
 
 ## Install
 ```
