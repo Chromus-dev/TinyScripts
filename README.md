@@ -17,7 +17,7 @@ npm i tinyscripts
 ```js
 const tinyscripts = require('tinyscripts')
 
-tinyscripts.base64('encode', 'Hello World');
+var encoded = tinyscripts.base64('encode', 'Hello World');
 //=> SGVsbG8gV29ybGQ=
 var decoded = tinyscripts.base64('decode', encoded);
 //=> Hello World
