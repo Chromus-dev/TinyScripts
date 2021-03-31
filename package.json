@@ -1,6 +1,6 @@
 {
 	"name": "tinyscripts",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Tiny Useful Scripts",
 	"main": "index.js",
 	"scripts": {
@@ -16,5 +16,11 @@
 		"url": "https://github.com/Chromus-dev/TinyScripts/issues"
 	},
 	"homepage": "https://github.com/Chromus-dev/TinyScripts#readme",
-	"keywords": [ "script", "tiny", "base64", "encode", "decode" ]
+	"keywords": [
+		"script",
+		"tiny",
+		"base64",
+		"encode",
+		"decode"
+	]
 }
