@@ -1,15 +1,35 @@
-const { encode, decode, validate } = require('./functions/base64');
-const { camelCase } = require('./functions/camelCase');
 const { translate, CharMap } = require('./functions/translate');
-const { isUpperCase, isLowerCase } = require('./functions/case');
+const { isUpperCase, isLowerCase, camelCase } = require('./functions/case');
+const { randomElement, randomInteger, randomWeighted } = require('./functions/random');
 
 module.exports = {
-	base64: {
-		encode,
-		decode,
-		validate
-	},
+	base64: require('./functions/base64'),
 	camelCase,
+	isUpperCase,
+	isLowerCase,
 	translate,
-	CharMap
+	CharMap,
+	randomElement,
+	randomInteger,
+	randomWeighted,
+	start() {
+		// returns if the string is all uppercase
+		Object.defineProperty(String.prototype, 'isUpperCase', {
+			get: function() {
+				return isUpperCase(this.toString());
+			}
+		});
+		// returns if the string is all lowercase
+		Object.defineProperty(String.prototype, 'isLowerCase', {
+			get: function() {
+				return isLowerCase(this.toString());
+			}
+		});
+		// returns if input is a string
+		Object.defineProperty(String.prototype, '', {
+			get: function() {
+				return;
+			}
+		});
+	}
 };

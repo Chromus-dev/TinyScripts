@@ -65,6 +65,20 @@ isLowerCase('c')
 - **isUpperCase(str)** - Returns true or false depending on if the string is uppercase.
 - **isLowerCase(str)** - Returns true or false depending on if the string is lowercase.
 
+## Full List of Features
+- Base64
+    - Encode
+    - Decode
+    - Validate
+- camelCase
+- isUpperCase
+- isLowerCase
+- charMap
+    - charMap
+    - translate
+- randomElement
+- randomInteger
+
 ## More Info
 ### charMap
 charMaps can be used with translate() to replace a charactar in a string with one of another. This is similar to the [python translate()](https://www.w3schools.com/python/ref_string_translate.asp) function. 

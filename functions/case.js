@@ -8,5 +8,11 @@ function isLowerCase(text) {
 	if (typeof text !== 'string') throw new TypeError('Text must be a string!');
 	return text == text.toLowerCase() ? true : false;
 }
+function camelCase(text) {
+	return text.replace(/(?:^\w|[A-Z]|\b\w|\s+)/g, function(match, index) {
+		if (+match === 0) return '';
+		return index === 0 ? match.toLowerCase() : match.toUpperCase();
+	});
+}
 
-module.exports = { isUpperCase, isLowerCase };
+module.exports = { isUpperCase, isLowerCase, camelCase };
