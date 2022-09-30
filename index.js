@@ -1,4 +1,4 @@
-const { translate, CharMap } = require('./functions/translate');
+const { CharMap } = require('./functions/translate');
 const { isUpperCase, isLowerCase, camelCase } = require('./functions/case');
 const { randomElement, randomInteger, randomWeighted } = require('./functions/random');
 
@@ -7,7 +7,6 @@ module.exports = {
 	camelCase,
 	isUpperCase,
 	isLowerCase,
-	translate,
 	CharMap,
 	randomElement,
 	randomInteger,
