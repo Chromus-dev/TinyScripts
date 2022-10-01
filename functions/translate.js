@@ -16,10 +16,11 @@ class CharMap {
 		this.caseSensitive = caseSensitive || false;
 	}
 	translate(str) {
-		if (!str) throw new TypeError('You must provide a string!');
+		if (typeof str !== 'string')
+			throw new TypeError('You must provide a string!');
 
-		console.log(this.map);
-		console.log(this.mapTo);
+		// console.log(this.map);
+		// console.log(this.mapTo);
 		// console.log('test');
 		/*     if (!map)
           throw new TypeError(
@@ -32,9 +33,7 @@ class CharMap {
 		str.forEach((char, index) => {
 			if (isUpperCase(char)) uppercaseChars.push(index);
 		});
-		str = this.map.caseSensitive
-			? str
-			: str.join('').toLowerCase().split('');
+		str = this.caseSensitive ? str : str.join('').toLowerCase().split('');
 
 		for (var x = 0; x < this.map.length; x++) {
 			str.forEach((char, index) => {
